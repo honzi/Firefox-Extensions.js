@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "random_bookmark",
+  "version": "1.0.0",
+  "description": "Adds a right-click menu option to bookmark folders that randomly open one of its bookmarks.",
+  "permissions": [
+    "bookmarks",
+    "contextMenus"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["random_bookmark.js"]
+  }
+}
