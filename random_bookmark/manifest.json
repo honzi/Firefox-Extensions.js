@@ -1,14 +1,15 @@
 {
+  "background": {
+    "persistent": false,
+    "scripts": ["random_bookmark.js"]
+  },
+  "description": "Adds a right-click menu option to bookmark folders that randomly opens 1 of its bookmarks.",
+  "homepage_url": "https://github.com/honzi/Firefox-Extensions.js",
   "manifest_version": 2,
   "name": "random_bookmark",
-  "version": "1.0.0",
-  "description": "Adds a right-click menu option to bookmark folders that randomly open one of its bookmarks.",
   "permissions": [
     "bookmarks",
     "contextMenus"
   ],
-  "background": {
-    "persistent": false,
-    "scripts": ["random_bookmark.js"]
-  }
+  "version": "1.0.1"
 }
